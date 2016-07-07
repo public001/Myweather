@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">હવામાન</string>
+<string name="city_manager">સિટી મૅનેજર</string>
+<string name="delete">હટાવો</string>
+<string name="delete_city">શું %1s ને હટાવવું છે?</string>
+<string name="set_international_city">શહેર સેટ કરો</string>
+<string name="city_name_hint">શહેરનું નામ</string>
+<string name="city_not_found">શહેર મળતું નથી.</string>
+<string name="city_max_toast">મહત્તમ %1s શહેરો.</string>
+<string name="weather_data_default">અજ્ઞાત</string>
+<string name="refresh_time">રિફ્રેશ સમય:\n%1s</string>
+</resources>

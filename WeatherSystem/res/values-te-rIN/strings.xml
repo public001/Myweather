@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">వాతావరణం</string>
+<string name="city_manager">సిటీ మేనేజర్</string>
+<string name="delete">తొలగించండి</string>
+<string name="delete_city">%1s ని తొలగించాలా?</string>
+<string name="set_international_city">సిటీని సెట్ చేయండి</string>
+<string name="city_name_hint">నగరం పేరు</string>
+<string name="city_not_found">నగరం కనుగొనబడలేదు.</string>
+<string name="city_max_toast">గరిష్టంగా %1s నగరాలు.</string>
+<string name="weather_data_default">తెలియని</string>
+<string name="refresh_time">రిఫ్రెష్ సమయం:\n%1s</string>
+</resources>

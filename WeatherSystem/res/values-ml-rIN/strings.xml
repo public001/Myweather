@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">കാലാവസ്ഥ</string>
+<string name="city_manager">സിറ്റി മാനേജർ</string>
+<string name="delete">ഡിലീറ്റ് ചെയ്യുക</string>
+<string name="delete_city">%1s ഡിലീറ്റ് ചെയ്യുക?</string>
+<string name="set_international_city">നഗരം സെറ്റ് ചെയ്യുക</string>
+<string name="city_name_hint">നഗരത്തിൻറെ പേര്</string>
+<string name="city_not_found">നഗരം കണ്ടെത്താൻ കഴിയുന്നില്ല.</string>
+<string name="city_max_toast">പരമാവധി %1s നഗരങ്ങൾ.</string>
+<string name="weather_data_default">അജ്ഞാതം</string>
+<string name="refresh_time">റിഫ്രെഷ് സമയം:\n%1s</string>
+</resources>

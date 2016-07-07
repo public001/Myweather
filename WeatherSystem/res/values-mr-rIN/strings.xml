@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">हवामान</string>
+<string name="city_manager">सिटी मॅनेजर</string>
+<string name="delete">डिलिट करा</string>
+<string name="delete_city">%1s डिलिट करायचे?</string>
+<string name="set_international_city">शहर सेट करा</string>
+<string name="city_name_hint">शहराचे नाव</string>
+<string name="city_not_found">शहर आढळले नाही.</string>
+<string name="city_max_toast">महत्तम %1s शहरे.</string>
+<string name="weather_data_default">अज्ञात</string>
+<string name="refresh_time">रिफ्रेश वेळ:\n%1s</string>
+</resources>

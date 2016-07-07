@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">天气预报</string>
+    
+    <string name="city_manager">城市管理</string>
+    <string name="delete">删除</string>
+    <string name="delete_city">删除 %1s?</string>
+    <string name="add_city">添加 %1s?</string>
+    <string name="update_location_city">更新定位城市到 %1s?</string>
+    <string name="add_city_title">添加城市</string>
+    <string name="city_name_hint">城市名</string>
+    <string name="city_not_found">找不到城市.</string>
+    <string name="weather_not_found">查找天气失败.</string>
+    <string name="city_max_toast">最多 %1s个城市.</string>
+    
+    <string name="clock_24_hours_format" translatable="false">kk&#58;mm</string>
+    <string name="main_widget_12_hours_format" translatable="false">h&#58;mm</string>
+    <string name="weather_data_default">未知</string>
+    
+    <string name="refresh_time">更新时间:\n%1s</string>
+    <string name="toast_wifi_only_mode">仅WIFI模式.</string>
+    <string name="toast_net_inavailable">网络不可用.</string>
+    
+    <string name="menu_auto_refresh">自动更新</string>
+    <string name="menu_auto_refresh_6h">每6小时</string>
+    <string name="menu_auto_refresh_12h">每12小时</string>
+    <string name="menu_auto_refresh_24h">每天</string>
+    <string name="menu_wifi_only">仅WIFI</string>
+    
+    <string name="weather_cloudy">多云</string>
+    <string name="weather_breezy">微风</string>
+    <string name="weather_windy">风</string>
+    <string name="weather_sunny">晴</string>
+    <string name="weather_clear">晴朗</string>
+    <string name="weather_showers">大雨</string>
+    <string name="weather_snow_showers">大雪</string>
+    <string name="weather_thunderstorms">雷阵雨</string>
+    <string name="weather_rain">雨</string>
+    <string name="weather_rain_and_snow">雨夹雪</string>
+</resources>

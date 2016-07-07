@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <dimen name="main_ampm_font_size">18dp</dimen>
+    <dimen name="widget_big_font_size">45dp</dimen>
+    
+    <dimen name="title_height">48dp</dimen>
+    <dimen name="title_paddingTop">7dp</dimen>
+    <dimen name="title_textSize">29sp</dimen>
+    
+    <dimen name="date_city_text_size">17sp</dimen>
+    <dimen name="weather_text_size">35sp</dimen>
+    <dimen name="temp_text_size">20sp</dimen>
+    
+    <dimen name="main_container_height">470dp</dimen>
+    <dimen name="weather_date_marginBottom">0dp</dimen>
+    
+    <dimen name="forecast_item_width">78dp</dimen>
+    <dimen name="forecast_item_height">130dp</dimen>
+    <dimen name="forecast_item_marginTop">5dp</dimen>
+    <dimen name="forecast_item_marginBottom">5dp</dimen>
+    <dimen name="forecast_image_size">73dp</dimen>
+    <dimen name="forecast_item_text_size">12sp</dimen>
+    <dimen name="forecast_item_internal_marginBottom">1dp</dimen>
+    <dimen name="forecast_item_line_marginTop">15dp</dimen>
+    <dimen name="forecast_item_line_marginBottom">50dp</dimen>
+    
+    <dimen name="temp_text_marginBottom">3dp</dimen>
+    <dimen name="weather_text_marginTop">-20dp</dimen>
+    
+    <dimen name="bottom_bar_marginTop">3dp</dimen>
+
+    <dimen name="search_text_height">54px</dimen>
+    
+    <dimen name="widget_img_marginLeft">5.0dip</dimen>
+    <dimen name="widget_img_marginTop">20.0dip</dimen>
+    <dimen name="widget_weatherdata_marginTop">25.0dip</dimen>
+    <dimen name="widget_time_marginBottom">8.0dip</dimen>
+    <dimen name="widget_date_marginBottom">13.0dip</dimen>
+    
+    <dimen name="add_city_width">54px</dimen>
+    
+    <dimen name="gps_view_icon_marginTop">24dp</dimen>
+
+    <dimen name="menu_width">230dp</dimen>
+    <dimen name="menu_item_height">45dp</dimen>
+    <dimen name="sub_menu_marginStart">42dp</dimen>
+    <dimen name="menu_item_marginEnd">7dp</dimen>
+    <dimen name="sub_menu_item_marginEnd">30dp</dimen>
+
+</resources>

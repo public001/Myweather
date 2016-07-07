@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <dimen name="widget_img_marginTop">8.0dip</dimen>
+    <dimen name="widget_weatherdata_marginTop">13.0dip</dimen>
+    <dimen name="widget_time_marginBottom">6.0dip</dimen>
+    <dimen name="widget_date_marginBottom">13.0dip</dimen>
+</resources>

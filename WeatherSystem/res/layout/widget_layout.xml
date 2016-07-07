@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_info"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@+drawable/widget_bg" >
+
+    <ImageView
+        android:id="@+id/widget_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="@dimen/widget_img_marginLeft"
+        android:layout_marginTop="@dimen/widget_img_marginTop"
+        android:scaleType="center"
+        android:src="@drawable/widget42_icon_nodata" />
+
+    <LinearLayout
+        android:id="@+id/widget_weatherdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right|center"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginTop="@dimen/widget_weatherdata_marginTop"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:weightSum="2.0" >
+
+            <TextView
+                android:id="@+id/widget_weathercity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="right"
+                android:text="@string/weather_data_default"
+                android:textColor="@android:color/white"
+                android:textSize="19dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/widget_weathercondition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="17dp"
+            android:text="@string/weather_data_default"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/widget_weathertemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="17dp"
+            android:text="@string/weather_data_default"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/refresh"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/btn_refresh"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weather_dateinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left|center"
+        android:layout_marginBottom="@dimen/widget_date_marginBottom"
+        android:layout_marginLeft="15.0dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widget_timeblock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right|center"
+        android:layout_marginBottom="@dimen/widget_time_marginBottom"
+        android:layout_marginRight="15.0dip" >
+
+        <TextClock
+            android:id="@+id/the_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:format12Hour="@string/main_widget_12_hours_format"
+            android:format24Hour="@string/clock_24_hours_format"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/widget_big_font_size" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/weather_date_marginBottom"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/date_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weather_data_default"
+            android:textColor="@color/white"
+            android:textSize="@dimen/date_city_text_size"
+            android:layout_marginEnd="2dp" />
+
+        <TextView
+            android:id="@+id/city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weather_data_default"
+            android:textColor="@color/white"
+            android:textSize="@dimen/date_city_text_size" />
+        <ImageView 
+            android:id="@+id/main_gps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_gps"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/weather_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/weather_text"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="@dimen/weather_text_marginTop"
+        android:gravity="center"
+        android:text="@string/weather_data_default"
+        android:textColor="@color/white"
+        android:textSize="@dimen/weather_text_size" />
+
+    <TextView
+        android:id="@+id/currentTemp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/weather_data_default"
+        android:textColor="@color/gold"
+        android:textColorHighlight="@color/lightgoldenrodyellow"
+        android:textColorHint="@color/darkgoldenrod"
+        android:textSize="@dimen/temp_text_size" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/temp_text_marginBottom"
+        android:gravity="center_horizontal"
+        android:text="@string/weather_data_default"
+        android:textColor="@color/snow"
+        android:textSize="@dimen/temp_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/forecast_item_height"
+        android:layout_marginBottom="@dimen/forecast_item_marginBottom"
+        android:layout_marginTop="@dimen/forecast_item_marginTop"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <include
+            android:id="@+id/forecast_item_1"
+            layout="@layout/forecast_item_layout" />
+
+        <include
+            android:id="@+id/forecast_item_2"
+            layout="@layout/forecast_item_layout" />
+
+        <include
+            android:id="@+id/forecast_item_3"
+            layout="@layout/forecast_item_layout" />
+
+        <include
+            android:id="@+id/forecast_item_4"
+            layout="@layout/forecast_item_layout" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">আবহাওয়া</string>
+<string name="city_manager">শহর ম্যানেজার</string>
+<string name="delete">ডিলিট করুন</string>
+<string name="delete_city">%1s ডিলিট করবেন?</string>
+<string name="set_international_city">শহর সেট করুন</string>
+<string name="city_name_hint">শহরের নাম</string>
+<string name="city_not_found">শহর খুঁজে পাওয়া যাচ্ছে না।.</string>
+<string name="city_max_toast">সর্বোচ্চ %1sটি শহর।.</string>
+<string name="weather_data_default">অজ্ঞাত</string>
+<string name="refresh_time">রিফ্রেশ টাইম:\n%1s</string>
+</resources>

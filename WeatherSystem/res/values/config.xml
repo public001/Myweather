@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_auto_refresh_enable">false</bool>
+    <integer name="config_auto_refresh">24</integer>
+    <bool name="config_wifi_only_enable">false</bool>
+    
+    <bool name="config_use_amap">false</bool>
+</resources>

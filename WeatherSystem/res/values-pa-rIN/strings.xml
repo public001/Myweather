@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">ਮੌਸਮ</string>
+<string name="city_manager">ਸ਼ਹਿਰ ਮੈਨੇਜਰ</string>
+<string name="delete">ਡਿਲੀਟ ਕਰੋ</string>
+<string name="delete_city">%1s ਨੂੰ ਡਿਲੀਟ ਕਰਨਾ ਹੈ?</string>
+<string name="set_international_city">ਸ਼ਹਿਰ ਸੈੱਟ ਕਰੋ</string>
+<string name="city_name_hint">ਸ਼ਹਿਰ ਦਾ ਨਾਮ</string>
+<string name="city_not_found">ਸ਼ਹਿਰ ਨਹੀਂ ਲੱਭ ਸਕਦੇ।.</string>
+<string name="city_max_toast">ਅਧਿਕਤਮ %1s ਸ਼ਹਿਰ।.</string>
+<string name="weather_data_default">ਅਗਿਆਤ</string>
+<string name="refresh_time">ਰੀਫ੍ਰੈੱਸ ਟਾਈਮ:\n%1s</string>
+</resources>

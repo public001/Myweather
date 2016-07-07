@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather</string>
+    
+    <string name="city_manager">City manager</string>
+    <string name="delete">Delete</string>
+    <string name="delete_city">Delete %1s?</string>
+    <string name="add_city">Add %1s?</string>
+    <string name="update_location_city">Update gps city to %1s?</string>
+    
+    <string name="add_city_title">Add city</string>
+    <string name="city_name_hint">City name</string>
+    <string name="city_not_found">Can not find city.</string>
+    <string name="weather_not_found">Can not find weather.</string>
+    <string name="city_max_toast">Maximum %1s cities.</string>
+    <string name="progress_refresh">Updating...</string>
+    
+    <string name="clock_24_hours_format" translatable="false">kk&#58;mm</string>
+    <string name="main_widget_12_hours_format" translatable="false">h&#58;mm</string>
+    <string name="weather_data_default">Unknown</string>
+    
+    <string name="refresh_time">Refresh time:\n%1s</string>
+    <string name="toast_wifi_only_mode">Wifi only mode.</string>
+    <string name="toast_net_inavailable">Net is not available.</string>
+    
+    <string name="menu_auto_refresh">Automatic updates</string>
+    <string name="menu_auto_refresh_6h">Every 6 hours</string>
+    <string name="menu_auto_refresh_12h">Every 12 hours</string>
+    <string name="menu_auto_refresh_24h">Every day</string>
+    <string name="menu_wifi_only">WIFI only</string>
+    
+    <string name="weather_cloudy">Cloudy</string>
+    <string name="weather_breezy">Breezy</string>
+    <string name="weather_windy">Windy</string>
+    <string name="weather_sunny">Sunny</string>
+    <string name="weather_clear">Clear</string>
+    <string name="weather_showers">Showers</string>
+    <string name="weather_snow_showers">Snow showers</string>
+    <string name="weather_thunderstorms">Thunderstorms</string>
+    <string name="weather_rain">Rain</string>
+    <string name="weather_rain_and_snow">Rain and snow</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">ಹವಾಮಾನ</string>
+<string name="city_manager">ಸಿಟಿ ಮ್ಯಾನೇಜರ್</string>
+<string name="delete">ಡಿಲೀಟ್ ಮಾಡಿ</string>
+<string name="delete_city">%1s ಡಿಲೀಟ್ ಮಾಡುವುದೇ?</string>
+<string name="set_international_city">ನಗರವನ್ನು ಸೆಟ್ ಮಾಡಿ</string>
+<string name="city_name_hint">ಸಿಟಿ ಹೆಸರು</string>
+<string name="city_not_found">ನಗರವನ್ನು ಹುಡುಕಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
+<string name="city_max_toast">ಗರಿಷ್ಠ %1s ನಗರಗಳು.</string>
+<string name="weather_data_default">ಅಜ್ಞಾತ</string>
+<string name="refresh_time">ರಿಫ್ರೆಶ್ ಸಮಯ:\n%1s</string>
+</resources>

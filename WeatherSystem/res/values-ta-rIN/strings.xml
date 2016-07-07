@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">வானிலை</string>
+<string name="city_manager">நகர மேனேஜர்</string>
+<string name="delete">நீக்கவும்</string>
+<string name="delete_city">%1s-ஐ நீக்க வேண்டுமா?</string>
+<string name="set_international_city">நகரத்தை அமைக்கவும்</string>
+<string name="city_name_hint">நகரத்தின் பெயர்</string>
+<string name="city_not_found">நகரத்தை கண்டுபிடிக்க முடியவில்லை.</string>
+<string name="city_max_toast">அதிகபட்சம் %1s நகரங்கள்.</string>
+<string name="weather_data_default">தெரியாத</string>
+<string name="refresh_time">புதுப்பிப்பு நேரம்:\n%1s</string>
+</resources>
